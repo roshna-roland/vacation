@@ -1,0 +1,442 @@
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+          
+          .parent {
+              position: relative;
+              top: 0;
+              left: 0;
+              width: 30px;
+            }
+          .image1 {
+              position: absolute;
+              top: 330px;
+              left: 0;
+              width: 200px;
+                }
+        .bg-image#dog2{
+              position: relative;
+              top:0px;
+              left: 40px;
+              border: 1px green solid;
+            
+            }
+            i#dog2{
+              position: absolute;
+              align-items: center;
+              top: 200px;
+              left: 200px;
+              }
+            .bg-image#dog2:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 506px;
+            top: 0;
+            height: 480px;
+            background-color: rgba(233, 215, 23, 0.8);
+          }
+          nav{background-color: rgb(255, 200, 0);
+              height: 130px;
+              position:sticky;
+              top: 0px;
+            }
+          li.nav-item{
+              padding-right: .5em;
+             
+          }
+          input.form-control{
+              border:0;
+              height: 2em;
+              width:200px;
+              font-size: xx-large;
+              border-radius: 0;
+            
+              }
+          #sear::placeholder{
+              color:white;
+          } 
+          #sea{
+            border-radius: 0;
+            width: 70px;
+            height: 65px;
+          }      
+          #lib{
+            color: aliceblue;
+            font-size: x-large;
+            list-style-type: none;
+            
+          }
+          .bg-image{
+            mask-repeat: no-repeat;
+            object-fit: fill;  
+            }
+            #intro {
+            background-image: url(task4\ pic/8.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          @media screen and (min-width:700px) {
+                #price{margin:0 200px; }
+                #contact{margin:200px 200px; }  
+                #end{padding: 150px 100px;} 
+                }
+              
+
+          
+                     
+    </style>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark  px-0 px-md-5  " >
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <img src="task4pic/1.png" class="mx-0 mx-md-5" alt="logo">
+
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent" style="justify-content:space-evenly;" >
+        <ul class="navbar-nav mb-2 mb-lg-0 "style="font-size:xx-large">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  active" href="#">Service</a>
+          </li>
+          
+          <li class="nav-item ">
+            <a class="nav-link active" href="#"  aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex my-0">
+          <input class=" form-control bg-warning text-light d-none d-xl-block" id="sear" type="search" placeholder="Search.." aria-label="Search">
+          <button class="btn bg-info" id="sea" type="submit">
+            <i class="bi bi-search text-light"></i>
+          </button>            
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- section-1 -->
+  <main id="main">
+    <div class="container-fluid bg-warning p-2 py-md-5">
+      <div class="row justify-content-stretch align-items-center m-0 ps-0 ms-lg-5 ps-md-5">
+        <div class="col-md-7  align-items-center">
+          <h1 class="display-1 fw-bolder " style="color:aliceblue; font-family:inherit;">1 First I wanted to be a veterinarian</h1>
+          <p class="h2" style="color:aliceblue">Lorem ipsum dolor, sit amenda! Vel cum provident animi vitae atque ullam neque? Sequi provident quaerat molestias delectus doloremque dolore sit!</p>
+          <button class="btn btn-info    btn-md-lg btn-sm fw-md-bold my-md-5 m-1 p-md-3 p-1" style="font-size: xx-large;color: aliceblue;">Contact us</button>
+          <button class="btn btn-warning btn-md-lg btn-sm fw-md-bold my-md-5 m-1 p-md-3 p-1   ms-lg-4 btn-outline-light" style="font-size: xx-large;color: aliceblue;">Our Services</button>
+        </div>
+        <div class="col-5 text-center d-none d-md-block">
+          <img src="task4pic/2.png" class="img-fluid " alt="dog">
+        </div>
+      </div> 
+    </div>
+  </main>    
+
+  <!-- SECTION 2 -->
+  <section class="section2 m-2 m-md-5">
+    <div class="container-fluid my-md-5 ">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-xl-5 align-items-center m-md-4 m-2">
+          <h1 class="display-4 fw-bold">2 As a veterianian and lover of animals.</h1>
+          <p class="h2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos voluptate architecto repellendus.</p>
+          <button class="btn btn-warning btn-sm btn-md-lg p-md-3 my-md-5 fw-bold " style="font-size: x-large;color: aliceblue;">Our service</button>
+        </div>
+        <div class="col-xl-5  d-none d-md-block">
+          <div class="parent ">
+            <img class="image1" src="task4pic/yellow.png" />
+            <div class="bg-image position-relative " id="dog2">
+              <img src="task4pic/3.png" class="w-10 " />
+              <i id="dog2" class="bi bi-play-circle-fill text-light" style="font-size: 100px;"></i>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+  </section>
+     
+  <!-- section3 -->
+  <section class="section3 bg-warning py-md-5">
+    <div class="text-center container-fluid py-md-3">
+      <h1 class="display-1 fw-bolder" style="color:aliceblue; font-family:inherit;">3 title here</h1>
+      <p class="h2 text-center" style="color:aliceblue">Lorem ipsum dolor, sit amenda! Vel cum provident  animi  molestias delectus doloremque dolore sit!</p>
+    </div>
+    <div class="row align-items-center justify-content-center py-md-5" id="price">
+
+      <div class="col my-1">
+        <div class="card text-center border-0 m-auto " style="width: 300px;">
+          <img src="task4pic/4.png" class="card-img-top" alt="">
+          <h2 class="card-title mt-4 fw-bold">Sheeren Collins</h5>
+          <h4>ADMINISTRATION</h5>
+        </div >
+      </div>
+        <div class="col my-1">
+        <div class="card text-center border-0 m-auto" style="width: 300px;">
+          <img src="task4pic/5.png" class="card-img-top" alt="">
+          <h2 class="card-title mt-4 fw-bold">Sheeren Collins</h5>
+          <h4>ADMINISTRATION</h5>
+        </div >
+      </div>
+        <div class="col my-1 ">
+        <div class="card text-center border-0 m-auto" style="width: 300px;">
+          <img src="task4pic/6.png" class="card-img-top" alt="">
+          <h2 class="card-title mt-4 fw-bold">Sheeren Collins</h5>
+          <h4>ADMINISTRATION</h5>
+        </div >           
+      </div>
+        
+    </div> 
+  </section>
+
+  <!-- SECTION 4 -->
+  <section class="section4 my-3 ">
+    <div class="container-fluid my-md-5">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-xl-5 d-none d-md-block ">
+          <div class="parent">
+            <img class="image1" src="task4pic/yellow.png" />
+            <div class="bg-image position-relative" id="dog2">
+              <img src="task4pic/7.png" class="w-10" />
+              <i id="dog2" class="bi bi-play-circle-fill text-light" style="font-size: 100px;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5  align-items-center m-md-5 ">
+          <h1 class="display-4 fw-bold text-end">4 As a veterianian and lover of animals.</h1>
+          <p class="h2 text-end">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos voluptate architecto repellendus.</p>
+          <div class="d-flex flex-row-reverse">
+            <button class="btn btn-warning btn-sm btn-md-lg p-md-3 my-md-5 fw-bold " style="font-size: x-large;color: aliceblue;">Our service</button>
+           </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 5 -->
+  <section class="section5 bg-warning py-md-5" >
+    <div class="text-center container-fluid py-md-3" >
+      <h1 class="display-1 fw-bolder" style="color:aliceblue; font-family:inherit;">5 title here</h1>
+      <p class="h2 text-center" style="color:aliceblue">Lorem ipsum dolor, sit amenda! Vel cum provident  animi  molestias delectus doloremque dolore sit!</p>
+    </div>
+    <div class="row justify-content-center align-items-center " id="price">
+      <div class="col ">
+            <div class="card text-center border-0  m-auto" style="width:300px;" >
+              <img src="task4pic/3.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-warning text-light ">
+                      <h5 class="card-title mt-md-2" style="font-size:50px;"><span style=" text-decoration: line-through;" >$50 </span> $30</h5>
+                      <a href="#" class="rounded-pill btn btn-lg  btn-info text-light  m-md-4"style="font-size: xx-large;">Buy Now</a>
+                    </div>
+            </div>
+      </div>
+      <div class="col">
+        <div class="card text-center border-0 m-auto" style="width: 300px;" >
+          <img src="task4pic/3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-warning text-light ">
+                  <h5 class="card-title mt-md-2" style="font-size:50px;"><span style=" text-decoration: line-through;" >$50 </span> $30</h5>
+                  <a href="#" class="rounded-pill btn btn-lg  btn-info text-light  m-md-4"style="font-size: xx-large;">Buy Now</a>
+                </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center border-0 m-auto" style="width: 300px;" >
+          <img src="task4pic/3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-warning text-light ">
+                  <h5 class="card-title mt-md-2" style="font-size:50px;"><span style=" text-decoration: line-through;" >$50 </span> $30</h5>
+                  <a href="#" class="rounded-pill btn btn-lg  btn-info text-light  m-md-4"style="font-size: xx-large;">Buy Now</a>
+                </div>
+        </div>
+      </div>
+     </div>
+  </section>
+
+    <!-- section 6 -->
+    <section class="section6">
+      <div class="text-center container-fluid my-5" >
+        <h1 class="display-1 fw-bolder" style=" font-family:inherit;">6 The vetcare team</h1>
+        <p class="h2 text-center" >Lorem ipsum dolor, sit amenda! Vel cum provident <br> animi  molestias delectus doloremque dolore sit!</p>  
+      </div>
+      <div class="row justify-content-center align-item-center mb-3 " id="price">
+        <div class="col">
+          <div class="card text-center border-0 m-auto" style="width: 300px;">
+            <img src="task4pic/4.png" class="card-img-top" alt="">
+            <h2 class="card-title mt-4 fw-bold">Sheeren Collins</h5>
+            <h4>ADMINISTRATION</h5>
+              <div >
+                <img src="task4pic/Instagram.y.png" class="m-2" alt="">
+                <img src="task4pic/Facebook.yellow.png" class="m-2"alt="">
+                <img src="task4pic/Twitter.y.png"class="m-2" alt="">
+                <img src="task4pic/WhatsApp.y.png" class="m-2"alt="">
+              </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center border-0 m-auto" style="width: 300px;">
+            <img src="task4pic/4.png" class="card-img-top" alt="">
+            <h2 class="card-title mt-4 fw-bold">Jennifer Mullen</h5>
+            <h4>VETERINERY</h5>
+              <div >
+                <img src="task4pic/Instagram.y.png" class="m-2" alt="">
+                <img src="task4pic/Facebook.yellow.png" class="m-2"alt="">
+                <img src="task4pic/Twitter.y.png"class="m-2" alt="">
+                <img src="task4pic/WhatsApp.y.png"class="m-2" alt="">
+              </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center border-0 m-auto" style="width: 300px;">
+            <img src="task4pic/4.png" class="card-img-top" alt="">
+            <h2 class="card-title mt-4 fw-bold">Jennifer Mullen</h5>
+            <h4>VETERINERY</h5>
+              <div >
+                <img src="task4pic/Instagram.y.png" class="m-2" alt="">
+                <img src="task4pic/Facebook.yellow.png"class="m-2" alt="">
+                <img src="task4pic/Twitter.y.png" class="m-2"alt="">
+                <img src="task4pic/WhatsApp.y.png" class="m-2"alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 7 -->
+    <section class="section 7">
+      <div id="intro" class="bg-image shadow-2-strong">
+        <div class="mask" style="background-color: rgba(233, 215, 23, 0.8);">
+          <div class=" container d-flex align-items-center justify-content-center text-center ">
+            <div class="row align-items-center justify-content-center py-md-5 my-5">
+              7
+                    <div class="col-md-3">
+                      <img src="task4pic/Icon-2.png" class="img-fluid" alt="">
+                      <p class="h1 text-center py-md-3" style="color:aliceblue; font-family:inherit;">Veterianian</p>
+                      <h3 style="color:aliceblue; font-family:inherit;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+                    </div>
+                    <div class="col-md-3 ">
+                      <img src="task4pic/Icon-1.png" class="img-fluid" alt="">
+                      <p class="h1 text-center py-md-3" style="color:aliceblue; font-family:inherit;">Veterianian Care</p>
+                      <h3 style="color:aliceblue; font-family:inherit;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+                    </div>
+                    <div class="col-md-3 ">
+                      <img src="task4pic/Icon.png" class="img-fluid" alt="">
+                      <p class="h1 text-center py-md-3" style="color:aliceblue; font-family:inherit;">Dental care</p>
+                      <h3 style="color:aliceblue; font-family:inherit;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+                    </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+  
+    </section>
+
+    <!-- section 8 -->
+    <section class="section8">
+      <div class="text-center container-fluid my-5">
+        <h1 class="display-1 fw-bolder" style=" font-family:inherit;">8 The vetcare team</h1>
+        <p class="h2 text-center" >Lorem ipsum dolor, sit amenda! Vel cum provident  animi  molestias delectus doloremque dolore sit!</p>  
+      </div>
+
+      <div class="row justify-content-center align-item-center" id="price">
+
+        <div class="col">
+          <div class="card text-center border-0 m-auto" style="width: 300px;">
+            <img src="task4pic/11.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center border-0 m-auto" style="width: 300px;">
+            <img src="task4pic/9.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center border-0 m-auto" style="width: 300px;">
+            <img src="task4pic/10.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+        <!-- section 9 -->
+ <section class="section9 bg-dark ">
+          <div class="row   justify-content-center align-item-center mx-0 " id="end">
+            <div class="col-md-3 p-0">
+              <div class="card bg-dark text-light" >
+                
+                <ul id="lib">
+                  <li class="h1" >9 About</li>
+                  <li >History</li>
+                  <li >Our team</li>
+                  <li >Brand Guidelines</li>
+                  <li >Terms & conditions</li>
+                  <li >Privacy Policy</li>
+                </ul>
+              </div>
+            </div>
+
+              <div class="col-md-3 p-0">
+                <div class="card bg-dark" >
+                  <ul id="lib">
+                    <li class="h1">Services</li>
+                    <li >How to Order</li>
+                    <li >Our products</li>
+                    <li >Order status</li>
+                    <li >Promo</li>
+                    <li >Payment Method</li>
+                  </ul>
+                </div>
+            </div>
+          <div class="col-md-4 p-0 text-end text-light">
+              <h1>Title here</h1>
+              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+              <form class="d-flex flex-row-reverse my-md-4">
+                <button class="btn bg-info btn-lg" id="sea" type="submit">
+                  <img src="task4pic/icon-4.png" alt="">
+                </button>
+                <input class="form-control bg-warning p-4 "  type="text" >            
+              </form>
+              <img src="task4pic/Instagram.png"  class="m-2"alt="">
+                <img src="task4pic/Facebook.png"class="m-2" alt="">
+                <img src="task4pic/Twitter.png" class="m-2" alt="">
+                <img src="task4pic/WhatsApp.png" class="m-2" alt="">
+          </div>
+
+ </section>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>     
+</body>
+</html>
